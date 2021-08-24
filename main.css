@@ -1,0 +1,27 @@
+* {
+    font-family:serif, Helvetica, sans-serif; /* Raleway (font)*/
+    text-align: center;
+    font-size: 26px;
+}
+  
+h2 {
+   color:#fa8072;;
+    padding: 0px;
+    text-align: center;
+    height: auto;
+}
+    
+body {
+    display: block;
+    background: rgba(255, 255, 255, 0.379);
+    font-family:Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.displayBox{
+    display: inline-block;
+    
+}
