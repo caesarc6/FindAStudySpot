@@ -2,6 +2,8 @@
     font-family:serif, Helvetica, sans-serif; /* Raleway (font)*/
     text-align: center;
     font-size: 26px;
+    margin: 0;
+    padding: 0;
 }
   
 h2 {
@@ -22,6 +24,6 @@ body {
 
 
 .displayBox{
-    display: inline-block;
-    
+ background: #facf7282;
+ margin: 10px;
 }
