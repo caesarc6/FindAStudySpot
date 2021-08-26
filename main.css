@@ -2,28 +2,65 @@
     font-family:serif, Helvetica, sans-serif; /* Raleway (font)*/
     text-align: center;
     font-size: 26px;
+    text-decoration: none;
     margin: 0;
     padding: 0;
 }
-  
-h2 {
-   color:#fa8072;;
-    padding: 0px;
-    text-align: center;
-    height: auto;
-}
-    
+
 body {
     display: block;
-    background: rgba(255, 255, 255, 0.379);
+    background: rgb(255, 255, 255);
     font-family:Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
+h2 {
+   color:#fa8072;
+    padding: 0px;
+    text-align: center;
+    height: auto;
+}
+
+.bgColor{
+  background-color:#C4C4C4;
+}
+
+.navBar{
+   display: flex;
+   flex-direction: row-reverse; 
+   background-color:#fa8072 !important;
+   height: auto;
+   width:auto;
+
+}
+
+.logoImg{
+position: absolute;
+left: 3%;
+
+}
+
+.button{
+  background-color: rgba(255, 255, 255, 0);
+  color:rgba(0, 0, 0, 0.61);
+  border: none;
+  text-align:center;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  transition: all 0.15s;
+}
+.button: hover {
+  color:rgba(230, 226, 223, 0.856);
+  border-color: #DDDDDD;
+}
 
 .displayBox{
- background: #facf7282;
- margin: 10px;
+  background: #facf7282;
+  margin: 10px;
+  border-radius: 9%;
+  
 }
