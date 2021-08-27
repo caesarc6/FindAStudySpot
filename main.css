@@ -28,18 +28,19 @@ h2 {
 }
 
 .navBar{
-   display: flex;
-   flex-direction: row-reverse; 
-   background-color:#fa8072 !important;
-   height: auto;
-   width:auto;
+  position: fixed;
+  display: flex;
+  flex-direction: row-reverse; 
+  background-color:#fa8072 !important;
+  height: auto;
+  width:100%;
 
 }
 
 .logoImg{
 position: absolute;
-left: 3%;
-
+left: 1%;
+top:10%;
 }
 
 .button{
@@ -53,14 +54,37 @@ left: 3%;
   font-size: 20px;
   transition: all 0.15s;
 }
-.button: hover {
+
+.button:hover{
   color:rgba(230, 226, 223, 0.856);
-  border-color: #DDDDDD;
+  border-color: #DDDDDD;
 }
 
 .displayBox{
   background: #facf7282;
-  margin: 10px;
-  border-radius: 9%;
-  
+  margin: 0px;
+  padding:10px;
+  border-radius: 9%; 
+}
+
+.loginFont b{
+  font-size: 16px !important;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding:50px;
+}
+
+.bubble{
+  position: sticky;
+  padding: 40px;
+  margin:20px;
+  width: 25%;
+  left:35%;
+  border-style: double;
+  transition: all 0.27s;
+}
+
+.bubble:hover{
+  color:rgba(230, 226, 223, 0.856);
+  border-color: #DDDDDD;
+  color:rgb(214, 177, 125);
 }
